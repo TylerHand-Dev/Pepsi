@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Sofia Pro Black,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    background-color: #0264c3;
+}
+
+nav .left-nav{
+    display: flex;
+    align-items: center;
+}
+
+nav .left-nav a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+nav .left-nav img{
+    width: 75px;
+    height: 60px;
+    margin-right: 50px;
+}
+
+nav .right-nav{
+    padding-right: 40px;
+}
+
+nav .right-nav a{
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+nav .right-nav a:hover{
+    color: #0264c3;
+    background-color: white;
+}
+
+.main-content{
+    background: rgb(0,34,131);
+    background: linear-gradient(90deg, rgba(0,34,131,1) 0%, rgba(175,182,198,1) 24%, rgba(0,34,147,1) 63%);
+    display: flex;
+    justify-content: center;
+}
+
+.main-content .can{
+    width: 450px;
+    aspect-ratio: 2/3;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.main-content .logo{
+    width: 500px;
+    height: 300px;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.main-content-right{
+    text-align: center;
+}
+
+.main-content-right p{
+    font-size: 2rem;
+    color: white;
+    padding: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-content-right a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.main-content-right a:hover{
+    color: #0264c3;
+    background-color: white;
+}
